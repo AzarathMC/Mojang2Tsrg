@@ -52,7 +52,13 @@
   </dependencies>
   
   
-  
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub AzarathMC Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/AzarathMC/Mojang2Tsrg</url>
+   </repository>
+</distributionManagement>
   
   
   </project>
