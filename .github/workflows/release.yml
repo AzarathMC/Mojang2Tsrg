@@ -11,7 +11,7 @@ jobs:
       - uses: gradle/wrapper-validation-action@v1
       - run: chmod +x ./gradlew
       - run: ./gradlew build publishToMavenLocal --stacktrace
-      - run: curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest
+      - run:   apt install perl -y && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest
         env:
           MAVEN_URL: ${{ secrets.MAVEN_URL }}
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
