@@ -41,26 +41,18 @@ url 'https://maven.fabricmc.net'
 
 }
 
-maven{
 
-url 'http://repositoryenriquitomc.sgvsh.ml/repo/'
-allowInsecureProtocol = true
-}
 
 
 mavenCentral()
 mavenLocal()
 google()
+jcenter()
 
 
 
 dependencies{
 
-implementation 'com.mojang:brigadier:1.0.18'
-implementation 'com.mojang:datafixerupper:1.0.20'
-
-
-implementation 'net.sf.jopt-simple:jopt-simple:6.0-alpha-3'
 
 }
 
@@ -74,4 +66,4 @@ implementation 'net.sf.jopt-simple:jopt-simple:6.0-alpha-3'
 
 
 
-}
+
