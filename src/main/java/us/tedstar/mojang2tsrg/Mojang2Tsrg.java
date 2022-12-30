@@ -120,6 +120,10 @@ public class Mojang2Tsrg {
     }
 
     public static void main(String[] args) throws IOException {
+        System.out.println("-------------------------");
+        System.out.println("------ AzarathMC ------");
+        System.out.println("------ Mojang2Tsrg ------");
+        System.out.println("-------------------------");
         File map = new File(args[0]);
         File out = new File(args[1]);
 
